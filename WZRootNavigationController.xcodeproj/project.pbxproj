@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33483FE720A53A4F00257E38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33483FE620A53A4F00257E38 /* AppDelegate.swift */; };
+		33483FEC20A53A4F00257E38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33483FEA20A53A4F00257E38 /* Main.storyboard */; };
+		33483FEE20A53A5000257E38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33483FED20A53A5000257E38 /* Assets.xcassets */; };
+		33483FFE20A53A5B00257E38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33483FFD20A53A5B00257E38 /* AppDelegate.m */; };
+		3348400420A53A5B00257E38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3348400220A53A5B00257E38 /* Main.storyboard */; };
+		3348400620A53A5C00257E38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3348400520A53A5C00257E38 /* Assets.xcassets */; };
+		3348400C20A53A5C00257E38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3348400B20A53A5C00257E38 /* main.m */; };
+		3348401D20A5404900257E38 /* WZCustomAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3348401C20A5404900257E38 /* WZCustomAnimation.swift */; };
+		3348402120A5422E00257E38 /* WZCustomAnimationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3348402020A5422E00257E38 /* WZCustomAnimationListViewController.swift */; };
+		3348402320A5424500257E38 /* WZCustomAnimationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3348402220A5424500257E38 /* WZCustomAnimationDetailViewController.swift */; };
+		3348402620A5427600257E38 /* WZCustomAnimationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3348402520A5427600257E38 /* WZCustomAnimationListViewController.m */; };
+		3348402920A5428F00257E38 /* WZCustomAnimationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3348402820A5428F00257E38 /* WZCustomAnimationDetailViewController.m */; };
+		3348402C20A542B900257E38 /* WZCustomAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3348402B20A542B900257E38 /* WZCustomAnimation.m */; };
+		3348402F20A5443900257E38 /* WZCustomAnimatedListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3348402E20A5443900257E38 /* WZCustomAnimatedListCell.swift */; };
+		3348403020A5443900257E38 /* WZCustomAnimatedListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3348402E20A5443900257E38 /* WZCustomAnimatedListCell.swift */; };
+		3348403220A575DE00257E38 /* WZRootTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3348403120A575DE00257E38 /* WZRootTableViewController.swift */; };
+		3348403720A5763100257E38 /* WZRootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3348403620A5763100257E38 /* WZRootTableViewController.m */; };
+		3348403920A57EF400257E38 /* WZNormal&UnwindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3348403820A57EF400257E38 /* WZNormal&UnwindViewController.swift */; };
+		3348403C20A57F0100257E38 /* WZNormal&UnwindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3348403B20A57F0100257E38 /* WZNormal&UnwindViewController.m */; };
+		3348403F20A5817700257E38 /* WZDisableInteractivePop&StatusHiddenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3348403E20A5817700257E38 /* WZDisableInteractivePop&StatusHiddenViewController.m */; };
+		3348404120A5819100257E38 /* WZDisableInteractivePop&StatusHiddenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3348404020A5819100257E38 /* WZDisableInteractivePop&StatusHiddenViewController.swift */; };
+		3348404620A58AE900257E38 /* WZHorizontalScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3348404520A58AE900257E38 /* WZHorizontalScrollViewController.m */; };
+		3348404820A58B0500257E38 /* WZHorizontalScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3348404720A58B0500257E38 /* WZHorizontalScrollViewController.swift */; };
+		3348404A20A58B4000257E38 /* WZPopAllowedEdgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3348404920A58B4000257E38 /* WZPopAllowedEdgeViewController.swift */; };
+		3348404D20A58B4E00257E38 /* WZPopAllowedEdgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3348404C20A58B4E00257E38 /* WZPopAllowedEdgeViewController.m */; };
+		3348405020A5910200257E38 /* WZPushAndRemoveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3348404F20A5910200257E38 /* WZPushAndRemoveViewController.m */; };
+		3348405220A5911500257E38 /* WZPushAndRemoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3348405120A5911500257E38 /* WZPushAndRemoveViewController.swift */; };
+		3348405420A5A2FB00257E38 /* WZCustomNavigationBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3348405320A5A2FB00257E38 /* WZCustomNavigationBarViewController.swift */; };
+		3348405720A5A31F00257E38 /* WZCustomNavigationBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3348405620A5A31F00257E38 /* WZCustomNavigationBarViewController.m */; };
+		3348405920A5A5B600257E38 /* WZCustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3348405820A5A5B600257E38 /* WZCustomNavigationBar.swift */; };
+		3348405A20A5A5B600257E38 /* WZCustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3348405820A5A5B600257E38 /* WZCustomNavigationBar.swift */; };
+		33E29A1720A930740068C2A6 /* WZWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E29A1620A930740068C2A6 /* WZWebViewController.swift */; };
+		33E29A1820A930740068C2A6 /* WZWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E29A1620A930740068C2A6 /* WZWebViewController.swift */; };
+		33E29A1D20A999E90068C2A6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33E29A1C20A999E90068C2A6 /* LaunchScreen.xib */; };
+		33E29A1E20A999E90068C2A6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33E29A1C20A999E90068C2A6 /* LaunchScreen.xib */; };
+		3E0B2A8F90DC8E4C998B1C05 /* Pods_SwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 380E7CFF420FBA0053F29B22 /* Pods_SwiftDemo.framework */; };
+		83E8A30A1F14003FD4F912DC /* Pods_ObjCDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33048DBD2ECBA83F25FFE346 /* Pods_ObjCDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33048DBD2ECBA83F25FFE346 /* Pods_ObjCDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjCDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33483FE420A53A4F00257E38 /* SwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33483FE620A53A4F00257E38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33483FEB20A53A4F00257E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33483FED20A53A5000257E38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33483FF220A53A5000257E38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33483FFA20A53A5B00257E38 /* ObjCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33483FFC20A53A5B00257E38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33483FFD20A53A5B00257E38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3348400320A53A5B00257E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3348400520A53A5C00257E38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3348400A20A53A5C00257E38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3348400B20A53A5C00257E38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3348401020A53AD500257E38 /* ObjCDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjCDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		3348401C20A5404900257E38 /* WZCustomAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WZCustomAnimation.swift; sourceTree = "<group>"; };
+		3348401E20A5416400257E38 /* WZRootNavigationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WZRootNavigationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3348402020A5422E00257E38 /* WZCustomAnimationListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WZCustomAnimationListViewController.swift; sourceTree = "<group>"; };
+		3348402220A5424500257E38 /* WZCustomAnimationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WZCustomAnimationDetailViewController.swift; sourceTree = "<group>"; };
+		3348402420A5427600257E38 /* WZCustomAnimationListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZCustomAnimationListViewController.h; sourceTree = "<group>"; };
+		3348402520A5427600257E38 /* WZCustomAnimationListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZCustomAnimationListViewController.m; sourceTree = "<group>"; };
+		3348402720A5428F00257E38 /* WZCustomAnimationDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZCustomAnimationDetailViewController.h; sourceTree = "<group>"; };
+		3348402820A5428F00257E38 /* WZCustomAnimationDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZCustomAnimationDetailViewController.m; sourceTree = "<group>"; };
+		3348402A20A542B900257E38 /* WZCustomAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZCustomAnimation.h; sourceTree = "<group>"; };
+		3348402B20A542B900257E38 /* WZCustomAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZCustomAnimation.m; sourceTree = "<group>"; };
+		3348402D20A542E100257E38 /* ObjCDemoPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCDemoPrefixHeader.pch; sourceTree = "<group>"; };
+		3348402E20A5443900257E38 /* WZCustomAnimatedListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WZCustomAnimatedListCell.swift; sourceTree = "<group>"; };
+		3348403120A575DE00257E38 /* WZRootTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WZRootTableViewController.swift; sourceTree = "<group>"; };
+		3348403520A5763100257E38 /* WZRootTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZRootTableViewController.h; sourceTree = "<group>"; };
+		3348403620A5763100257E38 /* WZRootTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZRootTableViewController.m; sourceTree = "<group>"; };
+		3348403820A57EF400257E38 /* WZNormal&UnwindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WZNormal&UnwindViewController.swift"; sourceTree = "<group>"; };
+		3348403A20A57F0100257E38 /* WZNormal&UnwindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WZNormal&UnwindViewController.h"; sourceTree = "<group>"; };
+		3348403B20A57F0100257E38 /* WZNormal&UnwindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WZNormal&UnwindViewController.m"; sourceTree = "<group>"; };
+		3348403D20A5817700257E38 /* WZDisableInteractivePop&StatusHiddenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WZDisableInteractivePop&StatusHiddenViewController.h"; sourceTree = "<group>"; };
+		3348403E20A5817700257E38 /* WZDisableInteractivePop&StatusHiddenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WZDisableInteractivePop&StatusHiddenViewController.m"; sourceTree = "<group>"; };
+		3348404020A5819100257E38 /* WZDisableInteractivePop&StatusHiddenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WZDisableInteractivePop&StatusHiddenViewController.swift"; sourceTree = "<group>"; };
+		3348404420A58AE900257E38 /* WZHorizontalScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZHorizontalScrollViewController.h; sourceTree = "<group>"; };
+		3348404520A58AE900257E38 /* WZHorizontalScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZHorizontalScrollViewController.m; sourceTree = "<group>"; };
+		3348404720A58B0500257E38 /* WZHorizontalScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WZHorizontalScrollViewController.swift; sourceTree = "<group>"; };
+		3348404920A58B4000257E38 /* WZPopAllowedEdgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WZPopAllowedEdgeViewController.swift; sourceTree = "<group>"; };
+		3348404B20A58B4E00257E38 /* WZPopAllowedEdgeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZPopAllowedEdgeViewController.h; sourceTree = "<group>"; };
+		3348404C20A58B4E00257E38 /* WZPopAllowedEdgeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZPopAllowedEdgeViewController.m; sourceTree = "<group>"; };
+		3348404E20A5910100257E38 /* WZPushAndRemoveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZPushAndRemoveViewController.h; sourceTree = "<group>"; };
+		3348404F20A5910200257E38 /* WZPushAndRemoveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZPushAndRemoveViewController.m; sourceTree = "<group>"; };
+		3348405120A5911500257E38 /* WZPushAndRemoveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WZPushAndRemoveViewController.swift; sourceTree = "<group>"; };
+		3348405320A5A2FB00257E38 /* WZCustomNavigationBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WZCustomNavigationBarViewController.swift; sourceTree = "<group>"; };
+		3348405520A5A31F00257E38 /* WZCustomNavigationBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZCustomNavigationBarViewController.h; sourceTree = "<group>"; };
+		3348405620A5A31F00257E38 /* WZCustomNavigationBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZCustomNavigationBarViewController.m; sourceTree = "<group>"; };
+		3348405820A5A5B600257E38 /* WZCustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WZCustomNavigationBar.swift; sourceTree = "<group>"; };
+		33E29A1620A930740068C2A6 /* WZWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WZWebViewController.swift; sourceTree = "<group>"; };
+		33E29A1C20A999E90068C2A6 /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		374269E8DC2AD6F47B3E0CBC /* Pods_WZRootNavigationController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WZRootNavigationController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		380E7CFF420FBA0053F29B22 /* Pods_SwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41A3B13D1065745073293CEE /* Pods-SwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftDemo/Pods-SwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7E040FEC4A78631791C126B4 /* WZRootNavigationController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WZRootNavigationController.podspec; path = ../WZRootNavigationController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9A87A8BB69BA75EB05FF86D /* Pods-ObjCDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjCDemo/Pods-ObjCDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BBD62FEC7D413D8B424BE4BC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C06B84285E9D135E370AB4B8 /* Pods-ObjCDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjCDemo/Pods-ObjCDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D7C653A9D38CEB351A8F2605 /* Pods-SwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftDemo/Pods-SwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E03311C9EE743E0C1056AAF3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33483FE120A53A4F00257E38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E0B2A8F90DC8E4C998B1C05 /* Pods_SwiftDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33483FF720A53A5B00257E38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E8A30A1F14003FD4F912DC /* Pods_ObjCDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33483FE520A53A4F00257E38 /* SwiftDemo */ = {
+			isa = PBXGroup;
+			children = (
+				33483FE620A53A4F00257E38 /* AppDelegate.swift */,
+				3348401420A53DC900257E38 /* Animations */,
+				3348401520A53DC900257E38 /* ViewControllers */,
+				3348401320A53DC900257E38 /* Views */,
+				33483FEA20A53A4F00257E38 /* Main.storyboard */,
+				33E29A1C20A999E90068C2A6 /* LaunchScreen.xib */,
+				33483FED20A53A5000257E38 /* Assets.xcassets */,
+				33483FF220A53A5000257E38 /* Info.plist */,
+			);
+			path = SwiftDemo;
+			sourceTree = "<group>";
+		};
+		33483FFB20A53A5B00257E38 /* ObjCDemo */ = {
+			isa = PBXGroup;
+			children = (
+				33483FFC20A53A5B00257E38 /* AppDelegate.h */,
+				33483FFD20A53A5B00257E38 /* AppDelegate.m */,
+				3348401620A53DE500257E38 /* Animations */,
+				3348401720A53DE500257E38 /* ViewControllers */,
+				3348401820A53DE500257E38 /* Views */,
+				3348400220A53A5B00257E38 /* Main.storyboard */,
+				3348400520A53A5C00257E38 /* Assets.xcassets */,
+				3348400A20A53A5C00257E38 /* Info.plist */,
+				3348400B20A53A5C00257E38 /* main.m */,
+				3348401020A53AD500257E38 /* ObjCDemo-Bridging-Header.h */,
+				3348402D20A542E100257E38 /* ObjCDemoPrefixHeader.pch */,
+			);
+			path = ObjCDemo;
+			sourceTree = "<group>";
+		};
+		3348401320A53DC900257E38 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3348402E20A5443900257E38 /* WZCustomAnimatedListCell.swift */,
+				3348405820A5A5B600257E38 /* WZCustomNavigationBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3348401420A53DC900257E38 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				3348401C20A5404900257E38 /* WZCustomAnimation.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		3348401520A53DC900257E38 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3348403120A575DE00257E38 /* WZRootTableViewController.swift */,
+				3348402020A5422E00257E38 /* WZCustomAnimationListViewController.swift */,
+				3348402220A5424500257E38 /* WZCustomAnimationDetailViewController.swift */,
+				3348403820A57EF400257E38 /* WZNormal&UnwindViewController.swift */,
+				3348404020A5819100257E38 /* WZDisableInteractivePop&StatusHiddenViewController.swift */,
+				3348404720A58B0500257E38 /* WZHorizontalScrollViewController.swift */,
+				3348404920A58B4000257E38 /* WZPopAllowedEdgeViewController.swift */,
+				3348405120A5911500257E38 /* WZPushAndRemoveViewController.swift */,
+				3348405320A5A2FB00257E38 /* WZCustomNavigationBarViewController.swift */,
+				33E29A1620A930740068C2A6 /* WZWebViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3348401620A53DE500257E38 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				3348402A20A542B900257E38 /* WZCustomAnimation.h */,
+				3348402B20A542B900257E38 /* WZCustomAnimation.m */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		3348401720A53DE500257E38 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3348403520A5763100257E38 /* WZRootTableViewController.h */,
+				3348403620A5763100257E38 /* WZRootTableViewController.m */,
+				3348402420A5427600257E38 /* WZCustomAnimationListViewController.h */,
+				3348402520A5427600257E38 /* WZCustomAnimationListViewController.m */,
+				3348402720A5428F00257E38 /* WZCustomAnimationDetailViewController.h */,
+				3348402820A5428F00257E38 /* WZCustomAnimationDetailViewController.m */,
+				3348403A20A57F0100257E38 /* WZNormal&UnwindViewController.h */,
+				3348403B20A57F0100257E38 /* WZNormal&UnwindViewController.m */,
+				3348403D20A5817700257E38 /* WZDisableInteractivePop&StatusHiddenViewController.h */,
+				3348403E20A5817700257E38 /* WZDisableInteractivePop&StatusHiddenViewController.m */,
+				3348404420A58AE900257E38 /* WZHorizontalScrollViewController.h */,
+				3348404520A58AE900257E38 /* WZHorizontalScrollViewController.m */,
+				3348404B20A58B4E00257E38 /* WZPopAllowedEdgeViewController.h */,
+				3348404C20A58B4E00257E38 /* WZPopAllowedEdgeViewController.m */,
+				3348404E20A5910100257E38 /* WZPushAndRemoveViewController.h */,
+				3348404F20A5910200257E38 /* WZPushAndRemoveViewController.m */,
+				3348405520A5A31F00257E38 /* WZCustomNavigationBarViewController.h */,
+				3348405620A5A31F00257E38 /* WZCustomNavigationBarViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3348401820A53DE500257E38 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		48C80213EC5301E915345F94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9A87A8BB69BA75EB05FF86D /* Pods-ObjCDemo.debug.xcconfig */,
+				C06B84285E9D135E370AB4B8 /* Pods-ObjCDemo.release.xcconfig */,
+				41A3B13D1065745073293CEE /* Pods-SwiftDemo.debug.xcconfig */,
+				D7C653A9D38CEB351A8F2605 /* Pods-SwiftDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		607FACC71AFB9204008FA782 = {
+			isa = PBXGroup;
+			children = (
+				607FACF51AFB993E008FA782 /* Podspec Metadata */,
+				33483FE520A53A4F00257E38 /* SwiftDemo */,
+				33483FFB20A53A5B00257E38 /* ObjCDemo */,
+				607FACD11AFB9204008FA782 /* Products */,
+				48C80213EC5301E915345F94 /* Pods */,
+				DAEC312F6954347F349F2B00 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		607FACD11AFB9204008FA782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33483FE420A53A4F00257E38 /* SwiftDemo.app */,
+				33483FFA20A53A5B00257E38 /* ObjCDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				7E040FEC4A78631791C126B4 /* WZRootNavigationController.podspec */,
+				E03311C9EE743E0C1056AAF3 /* README.md */,
+				BBD62FEC7D413D8B424BE4BC /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		DAEC312F6954347F349F2B00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3348401E20A5416400257E38 /* WZRootNavigationController.framework */,
+				374269E8DC2AD6F47B3E0CBC /* Pods_WZRootNavigationController_Tests.framework */,
+				33048DBD2ECBA83F25FFE346 /* Pods_ObjCDemo.framework */,
+				380E7CFF420FBA0053F29B22 /* Pods_SwiftDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33483FE320A53A4F00257E38 /* SwiftDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33483FF520A53A5000257E38 /* Build configuration list for PBXNativeTarget "SwiftDemo" */;
+			buildPhases = (
+				CC2F409D68ABA4FFC79CB159 /* [CP] Check Pods Manifest.lock */,
+				33483FE020A53A4F00257E38 /* Sources */,
+				33483FE120A53A4F00257E38 /* Frameworks */,
+				33483FE220A53A4F00257E38 /* Resources */,
+				759A5DCF9E12BE1431A83AE8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftDemo;
+			productName = SwiftDemo;
+			productReference = 33483FE420A53A4F00257E38 /* SwiftDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33483FF920A53A5B00257E38 /* ObjCDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3348400D20A53A5C00257E38 /* Build configuration list for PBXNativeTarget "ObjCDemo" */;
+			buildPhases = (
+				D5C80306769D6E53CE1B77DD /* [CP] Check Pods Manifest.lock */,
+				33483FF620A53A5B00257E38 /* Sources */,
+				33483FF720A53A5B00257E38 /* Frameworks */,
+				33483FF820A53A5B00257E38 /* Resources */,
+				9A15270488A67DC90D658CE0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjCDemo;
+			productName = ObjCDemo;
+			productReference = 33483FFA20A53A5B00257E38 /* ObjCDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		607FACC81AFB9204008FA782 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = CocoaPods;
+				TargetAttributes = {
+					33483FE320A53A4F00257E38 = {
+						CreatedOnToolsVersion = 9.3;
+						DevelopmentTeam = 64MZ8X8L3H;
+						ProvisioningStyle = Automatic;
+					};
+					33483FF920A53A5B00257E38 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "WZRootNavigationController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 607FACC71AFB9204008FA782;
+			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33483FE320A53A4F00257E38 /* SwiftDemo */,
+				33483FF920A53A5B00257E38 /* ObjCDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33483FE220A53A4F00257E38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33483FEE20A53A5000257E38 /* Assets.xcassets in Resources */,
+				33483FEC20A53A4F00257E38 /* Main.storyboard in Resources */,
+				33E29A1D20A999E90068C2A6 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33483FF820A53A5B00257E38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3348400620A53A5C00257E38 /* Assets.xcassets in Resources */,
+				3348400420A53A5B00257E38 /* Main.storyboard in Resources */,
+				33E29A1E20A999E90068C2A6 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		759A5DCF9E12BE1431A83AE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftDemo/Pods-SwiftDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/WZRootNavigationController/WZRootNavigationController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WZRootNavigationController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftDemo/Pods-SwiftDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A15270488A67DC90D658CE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ObjCDemo/Pods-ObjCDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/WZRootNavigationController/WZRootNavigationController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WZRootNavigationController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjCDemo/Pods-ObjCDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC2F409D68ABA4FFC79CB159 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5C80306769D6E53CE1B77DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ObjCDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33483FE020A53A4F00257E38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3348402320A5424500257E38 /* WZCustomAnimationDetailViewController.swift in Sources */,
+				3348401D20A5404900257E38 /* WZCustomAnimation.swift in Sources */,
+				33E29A1720A930740068C2A6 /* WZWebViewController.swift in Sources */,
+				3348405920A5A5B600257E38 /* WZCustomNavigationBar.swift in Sources */,
+				3348404820A58B0500257E38 /* WZHorizontalScrollViewController.swift in Sources */,
+				3348404120A5819100257E38 /* WZDisableInteractivePop&StatusHiddenViewController.swift in Sources */,
+				3348405420A5A2FB00257E38 /* WZCustomNavigationBarViewController.swift in Sources */,
+				3348403920A57EF400257E38 /* WZNormal&UnwindViewController.swift in Sources */,
+				3348403220A575DE00257E38 /* WZRootTableViewController.swift in Sources */,
+				33483FE720A53A4F00257E38 /* AppDelegate.swift in Sources */,
+				3348404A20A58B4000257E38 /* WZPopAllowedEdgeViewController.swift in Sources */,
+				3348402120A5422E00257E38 /* WZCustomAnimationListViewController.swift in Sources */,
+				3348402F20A5443900257E38 /* WZCustomAnimatedListCell.swift in Sources */,
+				3348405220A5911500257E38 /* WZPushAndRemoveViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33483FF620A53A5B00257E38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3348403720A5763100257E38 /* WZRootTableViewController.m in Sources */,
+				3348402920A5428F00257E38 /* WZCustomAnimationDetailViewController.m in Sources */,
+				3348402620A5427600257E38 /* WZCustomAnimationListViewController.m in Sources */,
+				3348405020A5910200257E38 /* WZPushAndRemoveViewController.m in Sources */,
+				3348403020A5443900257E38 /* WZCustomAnimatedListCell.swift in Sources */,
+				3348403F20A5817700257E38 /* WZDisableInteractivePop&StatusHiddenViewController.m in Sources */,
+				3348400C20A53A5C00257E38 /* main.m in Sources */,
+				3348404D20A58B4E00257E38 /* WZPopAllowedEdgeViewController.m in Sources */,
+				3348405720A5A31F00257E38 /* WZCustomNavigationBarViewController.m in Sources */,
+				33E29A1820A930740068C2A6 /* WZWebViewController.swift in Sources */,
+				33483FFE20A53A5B00257E38 /* AppDelegate.m in Sources */,
+				3348403C20A57F0100257E38 /* WZNormal&UnwindViewController.m in Sources */,
+				3348405A20A5A5B600257E38 /* WZCustomNavigationBar.swift in Sources */,
+				3348404620A58AE900257E38 /* WZHorizontalScrollViewController.m in Sources */,
+				3348402C20A542B900257E38 /* WZCustomAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		33483FEA20A53A4F00257E38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33483FEB20A53A4F00257E38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3348400220A53A5B00257E38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3348400320A53A5B00257E38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33483FF320A53A5000257E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41A3B13D1065745073293CEE /* Pods-SwiftDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 64MZ8X8L3H;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SwiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = arcangelw.WZRootNavigationController.SwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33483FF420A53A5000257E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7C653A9D38CEB351A8F2605 /* Pods-SwiftDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64MZ8X8L3H;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SwiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = arcangelw.WZRootNavigationController.SwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3348400E20A53A5C00257E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9A87A8BB69BA75EB05FF86D /* Pods-ObjCDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ObjCDemo/ObjCDemoPrefixHeader.pch;
+				INFOPLIST_FILE = ObjCDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = arcangelw.WZRootNavigationController.ObjCDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ObjCDemo/ObjCDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3348400F20A53A5C00257E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C06B84285E9D135E370AB4B8 /* Pods-ObjCDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ObjCDemo/ObjCDemoPrefixHeader.pch;
+				INFOPLIST_FILE = ObjCDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = arcangelw.WZRootNavigationController.ObjCDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ObjCDemo/ObjCDemo-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		607FACED1AFB9204008FA782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		607FACEE1AFB9204008FA782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33483FF520A53A5000257E38 /* Build configuration list for PBXNativeTarget "SwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33483FF320A53A5000257E38 /* Debug */,
+				33483FF420A53A5000257E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3348400D20A53A5C00257E38 /* Build configuration list for PBXNativeTarget "ObjCDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3348400E20A53A5C00257E38 /* Debug */,
+				3348400F20A53A5C00257E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "WZRootNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607FACED1AFB9204008FA782 /* Debug */,
+				607FACEE1AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
+}

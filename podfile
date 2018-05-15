@@ -1,0 +1,25 @@
+platform :ios, '8.0'
+inhibit_all_warnings!
+use_frameworks!
+
+target 'SwiftDemo' do
+  pod 'WZRootNavigationController', :path => '../'
+end
+
+target 'ObjCDemo' do
+    pod 'WZRootNavigationController', :path => '../'
+end
+
+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        if target.name == 'WZRootNavigationController'
+            target.build_configurations.each do |config|
+                if config.name == 'Debug'
+                   config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] = 'WZDEBUG=1'
+                   config.build_settings['OTHER_SWIFT_FLAGS'] = '$(inherited) "-D" "WZDEBUG"'
+                end
+            end
+        end
+    end
+end

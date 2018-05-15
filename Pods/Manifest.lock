@@ -1,0 +1,16 @@
+PODS:
+  - WZRootNavigationController (0.1.0)
+
+DEPENDENCIES:
+  - WZRootNavigationController (from `../`)
+
+EXTERNAL SOURCES:
+  WZRootNavigationController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WZRootNavigationController: 8b75e9fcefa862a5b5380bc37ea7b6d41ec9147b
+
+PODFILE CHECKSUM: 5ca4f0e3a035723a68f78a472a0b9c35cdae1282
+
+COCOAPODS: 1.5.2
